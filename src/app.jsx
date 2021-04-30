@@ -12,7 +12,7 @@ function App() {
     };
 
     fetch(
-      'https://youtube.googleapis.com/youtube/v3/videos?part=snippet&chart=mostPopular&maxResult=25&key=AIzaSyCv5MC5IDVhuxXXJRkkIleipPqSTnyPBx4',
+      'https://youtube.googleapis.com/youtube/v3/videos?part=snippet&chart=mostPopular&maxResults=25&key=AIzaSyCv5MC5IDVhuxXXJRkkIleipPqSTnyPBx4',
       requestOptions,
     )
       .then((response) => response.json())
